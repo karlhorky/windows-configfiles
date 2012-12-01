@@ -1,0 +1,8 @@
+{
+  "sublimelinter_executable_map":
+  {
+    "perl": "perl",
+    "php": "php",
+    "ruby": "/Users/karl/.rvm/rubies/ruby-1.9.3-p194/bin/ruby"
+  }
+}

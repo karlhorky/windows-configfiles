@@ -20,4 +20,4 @@
 #	127.0.0.1       localhost
 #	::1             localhost
 
-127.0.0.1:3000    karl.dev
+127.0.0.1         karl.dev

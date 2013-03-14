@@ -6,5 +6,6 @@ function s { ruby script\rails server }
 function dev { cd ~\development }
 function cx { cd ~\development\codexistential }
 function ce { cd ~\development\configelation }
-function ms { cd ~\development\ms }
+function sendwithus { cd ~\development\sendwithus }
+function sourceful { cd ~\development\sourceful }
 function profile { cd ~\Documents\WindowsPowerShell }

@@ -1,7 +1,12 @@
 {
+	"git_binary": "C:/RailsInstaller/Git/bin/git.exe",
 	"installed_packages":
 	[
-		"Package Control"
-	],
-	"git_binary": "C:/RailsInstaller/Git/bin/git.exe"
+		"GitGutter",
+		"Package Control",
+		"Sass",
+		"SASS Build",
+		"SublimeLinter",
+		"TrailingSpaces"
+	]
 }

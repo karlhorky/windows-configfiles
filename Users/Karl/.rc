@@ -1,0 +1,19 @@
+export GEM_HOME="$VIRTUAL_ENV/gems"
+export GEM_PATH=""
+export PATH=$PATH:$GEM_HOME/bin:/c/RailsInstaller/Git/bin:/c/Programme/Java/jre7/bin:/c/Programme\ \(x86\)/Heroku
+
+alias beta='workon betawithus && cd ~/development/betawithus'
+alias c='python manage.py shell'
+alias dbup='python manage.py syncdb && python manage.py migrate'
+alias s='python manage.py runserver_plus'
+alias st='/c/Program\ Files\ \(x86\)/Atlassian/SourceTree/SourceTree.exe'
+alias subl='/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
+alias e='subl .'
+
+if [ "$MSYSTEM" ]; then
+    export MSYS_HOME=/c/MinGW/msys/1.0
+    export WORKON_HOME=$HOME/.virtualenvs
+    if [ -e /c/Python27/Scripts/virtualenvwrapper.sh ]; then
+        source /c/Python27/Scripts/virtualenvwrapper.sh
+    fi
+fi

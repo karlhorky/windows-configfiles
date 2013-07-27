@@ -6,8 +6,8 @@ alias beta='workon betawithus && cd ~/development/betawithus'
 alias c='python manage.py shell'
 alias dbup='python manage.py syncdb && python manage.py migrate'
 alias s='python manage.py runserver_plus'
-alias st='/c/Program\ Files\ \(x86\)/Atlassian/SourceTree/SourceTree.exe'
-alias subl='/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
+alias st='start "" /c/Program\ Files\ \(x86\)/Atlassian/SourceTree/SourceTree.exe'
+alias subl='start "" /c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
 alias e='subl .'
 
 if [ "$MSYSTEM" ]; then

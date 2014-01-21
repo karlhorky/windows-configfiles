@@ -5,6 +5,8 @@
 	[
 		"LESS",
 		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-html-tidy",
 		"TrailingSpaces",
 		"VCS Gutter"
 	]

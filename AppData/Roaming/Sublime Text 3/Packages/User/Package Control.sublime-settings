@@ -1,12 +1,11 @@
 {
+	"auto_upgrade_last_run": null,
 	"git_binary": "C:/RailsInstaller/Git/bin/git.exe",
 	"installed_packages":
 	[
-		"GitGutter",
+		"LESS",
 		"Package Control",
-		"Sass",
-		"SASS Build",
-		"SublimeLinter",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"VCS Gutter"
 	]
 }

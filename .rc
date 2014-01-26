@@ -10,6 +10,8 @@ alias st='start "" /c/Program\ Files\ \(x86\)/Atlassian/SourceTree/SourceTree.ex
 alias subl='start "" /c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe'
 alias e='subl .'
 
+alias step='start "" "cmd /c start c:\xampp\xampp-control.exe" && start "" "http://stepford.dev" && subl $STEPFORD_PATH && cd $STEPFORD_THEME_PATH && grunt watch'
+
 if [ "$MSYSTEM" ]; then
     export MSYS_HOME=/c/MinGW/msys/1.0
     export WORKON_HOME=$HOME/.virtualenvs
